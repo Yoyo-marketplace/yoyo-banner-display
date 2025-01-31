@@ -30,7 +30,7 @@ const serveBannerPage = (bannerFile, res) => {
     `);
 };
 
-// Routes for individual bannerss
+// Routes for individual banners
 app.get('/bannerblue', (req, res) => serveBannerPage('blue.png', res));
 app.get('/bannergreen', (req, res) => serveBannerPage('green.png', res));
 app.get('/bannerpurple', (req, res) => serveBannerPage('purple.png', res));
