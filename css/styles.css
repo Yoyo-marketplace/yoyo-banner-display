@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner {
+    display: block;
+   width: 100%;  /* This makes the image take the full width of its container */
+   height: auto;  /* Allows the height to adjust automatically */
+   object-fit: contain; 
+}
